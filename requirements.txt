@@ -6,3 +6,6 @@ datasets
 tiktoken
 wandb
 tqdm
+sentencepiece
+accelerate
+protobuf
