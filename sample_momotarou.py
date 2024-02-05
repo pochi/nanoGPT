@@ -92,6 +92,6 @@ with torch.no_grad():
         for k in range(num_samples):
             y = model.generate(x, max_new_tokens, temperature=temperature, top_k=top_k)
             out = tokenizer.decode(y[0].tolist(), skip_special_tokens=True)
-            print(decode(y[0].tolist()))
+            # print(decode(y[0].tolist()))
             print(out)
             print('---------------')
